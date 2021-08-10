@@ -1,0 +1,92 @@
+.btn-1{
+    background-color: #00c6f2;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    font-weight: bold;
+}
+.x{
+    color: #00c6f2;
+}
+.t-1{
+    font-size: 1.5rem;
+}
+.text-area{
+    height: 100vh;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+.header{
+    height: 100vh;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.image-hero{
+    background-image: url("2.jpg");
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    height: 40vh;
+    background-color:rgba(0, 0, 0, 0.5)
+}
+.caro-img{
+    height: 50vh;
+}
+.img-card{
+    height: 50vh;
+}
+.overlay-c{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50vh;
+    position: absolute;
+    top: 0;
+}
+.c-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.card{
+    margin-top: 1rem;
+}
+.img-n{
+    height: 60vh;
+    width: 40vw;
+}
+.input{
+    height: 3.5rem;
+    width: 50vh;
+    border:3px solid #00c6f2;
+    border-radius: 5rem;
+    margin-bottom: 1.3rem;
+}
+.contact-us{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+footer{
+    background-color: #1e2021;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    height: 25vh;
+    padding-top: 3.5rem;
+}
+@media(max-width:600px){
+    .img-n{
+        display: none;
+    }
+}
